@@ -3,6 +3,10 @@
     private static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
-        Console.WriteLine("adu ar");
+        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Hello, World!");
+        string nhap= Console.ReadLine();
+        Console.WriteLine(nhap);
     }
 }
