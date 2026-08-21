@@ -2,20 +2,42 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        Console.Write("Hi");
-        Console.WriteLine(", I am World");
-        Console.WriteLine("Generating invoices for customer \"Contoso Corp\" ... \n");
-        Console.WriteLine("Invoice: 1021\t\tComplete!");
-        Console.WriteLine("Invoice: 1022\t\tComplete!");
-        Console.Write("\nOutput Directory:\t");
-        var Anhdudu = "dugva";
-        Console.WriteLine(Anhdudu);
-        Console.WriteLine(@"    c:\source\repos    
-        (this is where your code goes)");
-        string projectName = "ACME";
-        Console.WriteLine($"View English output:\n \t c:\\exercise\\{projectName}\\data.txt\n");
-        decimal thuongso = 1/3m;
-        Console.WriteLine(thuongso);
+        // initialize variables - graded assignments 
+        int currentAssignments = 5;
+
+        int sophia1 = 93;
+        int sophia2 = 87;
+        int sophia3 = 98;
+        int sophia4 = 95;
+        int sophia5 = 100;
+
+        int nicolas1 = 80;
+        int nicolas2 = 83;
+        int nicolas3 = 82;
+        int nicolas4 = 88;
+        int nicolas5 = 85;
+
+        int zahirah1 = 84;
+        int zahirah2 = 96;
+        int zahirah3 = 73;
+        int zahirah4 = 85;
+        int zahirah5 = 79;
+
+        int jeong1 = 90;
+        int jeong2 = 92;
+        int jeong3 = 98;
+        int jeong4 = 100;
+        int jeong5 = 97;
+
+        decimal avrSophia = ((sophia1 + sophia2 + sophia3 + sophia4 + sophia5) / (decimal)currentAssignments);
+        decimal avrNicolas = ((nicolas1 + nicolas2 + nicolas3 + nicolas4 + nicolas5) / (decimal)currentAssignments);
+        decimal avrZahirah = ((zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5) / (decimal)currentAssignments);
+        decimal avrJeong = ((jeong1 + jeong2 + jeong3 + jeong4 + jeong5) / (decimal)currentAssignments);
+
+        Console.WriteLine("Student \t Grade");
+        Console.WriteLine($"Sophia \t\t {avrSophia}");
+        Console.WriteLine($"Nicolas \t {avrNicolas}");
+        Console.WriteLine($"Zahirah \t {avrZahirah}");
+        Console.WriteLine($"Jeong \t\t {avrJeong}");
     }
 }
